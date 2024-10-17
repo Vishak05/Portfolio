@@ -22,17 +22,17 @@ To get started with the Store Management System, follow these simple steps:
 
 
 ## Directory Structure
-/Portfolio
-│
-├── app.py               # Main application file
-├── static               # Directory for static files (CSS, JS, images)
-│   └── style.css        # Stylesheet for the website
-│   └── me.jpg           # A picture of me
-└── templates            # Directory for HTML templates
-    ├── layout.html      # Base layout for all pages
-    ├── home.html        # Home page template
-    ├── projects.html     # Projects page template
-    ├── education.html    # Education page template
-    ├── contact.html      # Constact page template
-    ├── certifications.html    # Certifications page template
-    └── skills.html            # Skills page temlplate
+/Portfolio  
+│  
+├── app.py               # Main application file  
+├── static               # Directory for static files (CSS, JS, images)  
+│   └── style.css        # Stylesheet for the website  
+│   └── me.jpg           # A picture of me  
+└── templates            # Directory for HTML templates  
+    ├── layout.html      # Base layout for all pages  
+    ├── home.html        # Home page template  
+    ├── projects.html     # Projects page template  
+    ├── education.html    # Education page template  
+    ├── contact.html      # Constact page template  
+    ├── certifications.html    # Certifications page template  
+    └── skills.html            # Skills page temlplate  
