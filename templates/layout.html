@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>Vishak Senthilkumar</h1>
+    <p>Chennai, Tamil Nadu, India |
+        <a href = "https://mail.google.com/mail/?extsrc=mailto&url=mailto%3Avishaksenthilkumar%40gmail.com%3Fsubject%3DContact+Form">vishaksenthilkumar@gmail.com</a>
+        | +918807017014</p>
+</header>
+
+<nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('projects') }}">Projects</a>
+        <a href="{{ url_for('education') }}">Education</a>
+        <a href="{{ url_for('certifications') }}">Certifications</a>
+        <a href="{{ url_for('skills') }}">Skills</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.nav-link').on('click', function(event) {
+            event.preventDefault();
+            var url = $(this).attr('href');
+            $('#content').removeClass('fade').addClass('fade-out');
+            setTimeout(function() {
+                window.location = url;
+            }, 1000);
+        });
+    });
+</script>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <p>© 2024 Vishak Senthilkumar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
