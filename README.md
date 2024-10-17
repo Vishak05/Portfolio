@@ -4,7 +4,7 @@ Portfilio website is a webite hosted on flask that displays various information 
 
 ## Prerequisites
 •Python: The program is written in Python, a widely-used, versatile programming language. You'll need a Python interpreter installed on your system to run the application.
-•	flask:Flask is a micro web framework written in Python
+•flask:Flask is a micro web framework written in Python
 
 ### Getting Started
 To get started with the Store Management System, follow these simple steps:
