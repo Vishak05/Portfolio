@@ -20,6 +20,3 @@ To get started with the Store Management System, follow these simple steps:
    ```
 5. Access the website: Open your browser and go to http://127.0.0.1:500 
 
-
-## Directory Structure
-flask-website │ ├── app.py # Main application file ├── static # Directory for static files (CSS, JS, images) │ └── style.css # Stylesheet for the website └── templates # Directory for HTML templates ├── layout.html # Base layout for all pages ├── home.html # Home page template ├── projects.html # Projects page template ├── education.html # Education page template └── contact.html # Contact page template 
