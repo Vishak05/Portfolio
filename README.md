@@ -26,7 +26,7 @@ To get started with the Store Management System, follow these simple steps:
 │  
 ├── app.py               # Main application file  
 ├── static               # Directory for static files (CSS, JS, images)  
-│   ensp└── style.css        # Stylesheet for the website  
+│*Tabspace*└── style.css        # Stylesheet for the website  
 │     └── me.jpg           # A picture of me  
 └── templates            # Directory for HTML templates  
       ├── layout.html      # Base layout for all pages  
